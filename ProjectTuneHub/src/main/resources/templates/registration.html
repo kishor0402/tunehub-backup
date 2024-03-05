@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index page</title>
+</head>
+<body>
+
+<header>
+		<h1>User Registration</h1>
+	</header>
+
+	<form action="register" method="post">
+		<label>Username :</label><br>
+	    <input type="text" name="username">
+	    <br>
+		<br> 
+	    <label>email :</label><br>
+		<input type="email" name="email"> 
+		<br>
+		<br> 
+		<label>Password :</label><br>
+		<input type="password" name="password"> 
+		<br>
+		<br> 
+		<label>Gender :</label><br>
+		Male<input type="radio" name="gender" value="male">
+		Female<input type="radio"name="gender" value="female">
+		Other<input type="radio" name="gender" value="other">
+		<br>
+		<br>
+		<label>Role :</label><br>
+		admin<input type="radio" name="role" value="admin">
+		Customer<input type="radio" name="role" value="customer"><br>
+		<label>Address :</label>
+		<input name="address"> <br>
+	    <input type="submit" value="Register">
+	</form>
+
+</body>
+</html>
